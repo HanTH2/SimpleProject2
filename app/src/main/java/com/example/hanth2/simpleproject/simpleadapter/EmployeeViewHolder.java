@@ -4,6 +4,7 @@ import android.view.View;
 import android.widget.TextView;
 
 import com.example.hanth2.simpleproject.R;
+import com.example.hanth2.simpleproject.model.EmployeeModel;
 
 /**
  * Created by HanTH2 on 8/5/2016.

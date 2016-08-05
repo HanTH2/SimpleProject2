@@ -1,4 +1,4 @@
-package com.example.hanth2.simpleproject.simpleadapter;
+package com.example.hanth2.simpleproject.activity;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -9,6 +9,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 
 import com.example.hanth2.simpleproject.R;
+import com.example.hanth2.simpleproject.simpleadapter.EmployeeAdapter;
+import com.example.hanth2.simpleproject.model.EmployeeModel;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 

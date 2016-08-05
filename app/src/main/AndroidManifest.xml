@@ -8,7 +8,7 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme.NoActionBar">
-        <activity android:name=".simpleadapter.MainActivity">
+        <activity android:name=".activity.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -16,7 +16,12 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".simpleadapter.SimpleListActivity"
+        <activity android:name=".activity.SimpleListActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:label="@string/app_name">
+        </activity>
+
+        <activity android:name=".activity.SectionListActivity"
             android:theme="@style/AppTheme.NoActionBar"
             android:label="@string/app_name">
         </activity>
