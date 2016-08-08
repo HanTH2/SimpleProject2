@@ -10,7 +10,6 @@ import rx.Observable;
 public class LoginApiRequesterImpl implements LoginApiRequester {
 
     public LoginApiRequesterImpl(){
-        Injector.INSTANCE.inject(this);
     }
 
     @Override

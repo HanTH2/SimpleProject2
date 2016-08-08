@@ -2,10 +2,11 @@ package com.example.hanth2.simpleproject.sectionadapter;
 
 import android.content.Context;
 
+import com.example.hanth2.simpleproject.base.adapter.BaseSectionAdapter;
 import com.example.hanth2.simpleproject.model.EmployeeModel;
-import com.example.hanth2.simpleproject.section.EmployeeSection;
-import com.example.hanth2.simpleproject.section.LoadingSection;
-import com.example.hanth2.simpleproject.section.SampleTitleSection;
+import com.example.hanth2.simpleproject.sectionadapter.section.EmployeeSection;
+import com.example.hanth2.simpleproject.sectionadapter.section.LoadingSection;
+import com.example.hanth2.simpleproject.sectionadapter.section.SampleTitleSection;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 
@@ -21,7 +22,7 @@ import java.util.List;
 /**
  * Created by HanTH2 on 8/5/2016.
  */
-public class SampleSectionAdapter extends BaseSectionAdapter{
+public class SampleSectionAdapter extends BaseSectionAdapter {
     final int TITLE_TYPE = 1;
     final int EMPLOYEE_TYPE = 2;
     final int LOADING_TYPE = 3;

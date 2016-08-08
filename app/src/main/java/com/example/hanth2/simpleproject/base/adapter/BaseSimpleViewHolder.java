@@ -15,7 +15,7 @@ public abstract class BaseSimpleViewHolder<TItem> extends RecyclerView.ViewHolde
 
     public BaseSimpleViewHolder(View itemView) {
         super(itemView);
-        ButterKnife.inject(itemView);
+        ButterKnife.bind(itemView);
     }
 
     public void bind(TItem item){

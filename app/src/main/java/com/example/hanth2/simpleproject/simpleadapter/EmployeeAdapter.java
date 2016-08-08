@@ -4,7 +4,9 @@ import android.content.Context;
 import android.view.View;
 
 import com.example.hanth2.simpleproject.R;
+import com.example.hanth2.simpleproject.base.adapter.BaseSimpleAdapter;
 import com.example.hanth2.simpleproject.model.EmployeeModel;
+import com.example.hanth2.simpleproject.simpleadapter.viewholder.EmployeeViewHolder;
 
 /**
  * Created by HanTH2 on 8/5/2016.

@@ -1,6 +1,6 @@
 package com.example.hanth2.simpleproject.login;
 
-import com.example.hanth2.simpleproject.base.net.ApiRequester;
+import com.example.hanth2.simpleproject.base.net.LoginApiRequester;
 
 import javax.inject.Inject;
 
@@ -12,11 +12,10 @@ import rx.functions.Func1;
  */
 public class LoginRepositoryImpl implements LoginRepository {
 
-    @Inject
-    ApiRequester mApiRequester;
+    LoginApiRequester mApiRequester;
 
-    public LoginRepositoryImpl() {
-        Injector.INSTANCE.inject(this);
+    public LoginRepositoryImpl(LoginApiRequester requester) {
+        this.mApiRequester = requester;
     }
 
     @Override

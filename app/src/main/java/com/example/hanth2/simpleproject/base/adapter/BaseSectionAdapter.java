@@ -4,7 +4,7 @@ import android.content.Context;
 import android.support.v7.widget.RecyclerView;
 import android.view.ViewGroup;
 
-import com.example.hanth2.simpleproject.section.Section;
+import com.example.hanth2.simpleproject.sectionadapter.section.Section;
 
 import java.util.ArrayList;
 import java.util.List;
